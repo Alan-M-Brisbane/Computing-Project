@@ -1,0 +1,374 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  min-width: 1330px;
+
+}
+
+html {
+  font-size: 62.5%;
+}
+
+
+
+img {
+   max-width: 100%;
+   max-height: 100%;
+}
+
+
+
+header {
+  text-align: center;
+  color: Green;
+  Background-color: #e6ffcc;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 4rem;
+}
+
+h1{
+  padding: 0;
+  color: black;
+}
+
+h2 {
+  padding-top: 2rem;
+}
+
+h3 {
+  font-size: 5rem;
+  padding-bottom: 2rem;
+}
+
+div {
+  color: white
+}
+
+section {
+  padding: 10rem;
+  font-size: 2rem;
+}
+
+
+#nav1 {
+  font-size: 3rem;
+  width: 100%;
+  float: center;
+}
+
+ul {
+  border: solid;
+  border-width: 10px;
+  border-color: green;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #e6ffcc;
+  height: 100%;
+  overflow: auto;
+}
+
+nav li {
+  display:inline;
+}
+
+li a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+}
+
+li a:hover {
+    background-color: #69cc00;
+    color: white;
+}
+
+footer {
+  max-width: 1300rem;
+  border-style: solid hidden solid hidden;
+  border-width: 5px;
+  border-color: black;
+  text-align: center;
+  color: black;
+  background-color: #ffffe6;
+  font-size: 2rem;
+
+}
+
+.clear {
+  clear: both;
+}
+
+#top1 {
+  padding-bottom: 0;
+  padding-top: 0;
+
+}
+
+#top2{
+  font-size: 20px;
+
+}
+
+#top4 {
+  font-size: 8rem;
+}
+
+#top5 {
+  font-size: 4rem;
+}
+
+#top6 {
+  padding-bottom: 0;
+  padding-top: 2rem;
+
+}
+
+#Border{
+  padding: 1rem;
+  font-size: 2px;
+  background-color: #66ff66;
+  border-top: solid;
+  border-bottom: solid;
+  border-color: black;
+  border-width: 5px;
+
+
+}
+
+#deals {
+  padding: 1rem;
+  margin-top: 5px;
+  text-align:center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+
+}
+
+#deals2 {
+  padding: 0rem;
+  margin-top: 5px;
+  text-align:center;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  padding-bottom: 0rem;
+  padding-top: 0rem;
+  background-color: Green;
+}
+
+#month_deal {
+  margin: 0;
+  padding: 0;
+  text-align:center;
+
+}
+
+#month_title {
+  padding-left: 0rem;
+  padding-right: 0rem;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+
+
+}
+
+#Slide {
+  padding-top: 2rem;
+}
+#foot {
+  padding: 0;
+  margin: 0;
+  color: black;
+  border-top: solid;
+  border-bottom: solid;
+  border-color: #ff751a;
+  border width: 8px;
+
+
+}
+#foot1 {
+  padding: 0;
+  margin: 0;
+  color: black;
+  border-top: solid;
+  border-bottom: solid;
+  border-color: #ffa366;
+  border width: 8px;
+
+
+}
+
+#foot2 {
+  padding: 0;
+  margin: 0;
+  color: black;
+  border-top: solid;
+  border-bottom: solid;
+  border-color: #ffff66;
+  border width: 8px;
+  padding-bottom: 2rem;
+
+}
+
+#SM_Choice {
+  text-align: center;
+  border-top: solid;
+  border-color: Black;
+  border width: 8px;
+
+}
+
+
+#SMtop1 {
+  font-size: 10rem;
+  height: 60rem;
+  width: 100%;
+
+}
+
+#SMtop2 {
+  height: 10rem;
+  width: 100%;
+
+}
+
+#SMtop3 {
+  font-size: 10rem;
+  height: 68rem;
+  width: 100%;
+  color: white;
+}
+
+
+#sminfo1 {
+  padding-top: 0;
+  font-style: italic;
+
+}
+
+#Strawberry_B1 {
+  border-style: solid;
+  border-width: 6px;
+  border-color: Red;
+}
+
+#Orange_B1 {
+  border-style: solid;
+  border-width: 6px;
+  border-color: Orange;
+}
+
+#Apple_B1 {
+  border-style: solid;
+  border-width: 6px;
+  border-color: Green;
+}
+
+#Tomato_B1 {
+  border-style: solid;
+  border-width: 6px;
+  border-color: Red;
+}
+
+
+#Melon_B1 {
+  border-style: solid;
+  border-width: 6px;
+  border-color: #ff6666;
+}
+
+#Cherry_B1 {
+  border-style: solid;
+  border-width: 6px;
+  border-color: #e60000;
+}
+
+#Factory_B1 {
+  border-style: solid;
+  border-width: 6px;
+  border-color: Skyblue;
+}
+
+#Mixer {
+  border-style: solid;
+  border-width: 6px;
+  border-color: #ffcc00;
+}
+#Banana_B1 {
+  border-style: solid;
+  border-width: 6px;
+  border-color: #ffe680;
+}
+
+#Lemon_B1 {
+  border-style: solid;
+  border-width: 6px;
+  border-color: #ffff66;
+}
+
+#L_green {
+  border-style: solid;
+  border-width: 6px;
+  border-color:  #84e184;
+  }
+
+  #Grape_B1 {
+    border-style: solid;
+    border-width: 6px;
+    border-color: #800080;
+  }
+
+  #Blueberry_B1 {
+    border-style: solid;
+    border-width: 6px;
+    border-color: #3399ff;
+  }
+
+#Title {
+  padding: 1rem;
+  margin-top: 0px;
+  text-align:center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+}
+
+#Title_A {
+  border-style: solid;
+  border-width: 6px;
+  border-color: #ffcc00;
+}
+
+
+#SM_Choice {
+  padding: 1rem;
+}
+
+#smdesc1 {
+  padding-bottom: 3rem;
+}
+
+#NoCup {
+  margin-top: 2rem;
+  border-style: solid;
+  border-width: 6px;
+  border-color: #90ff1a;
+}
+
+#BBOC {
+  margin-top: 2rem;
+  border-style: solid;
+  border-width: 6px;
+  border-color: #90ff1a;
+}

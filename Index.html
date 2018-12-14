@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en" noresize="noresize">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Green Juicebox Page 1</title>
+  <link rel="stylesheet" href="CSS/CSS.css">
+
+  <header>
+    <img id= "NoCup" class="img-scrnshot" src="Resources/Images/Cup_plastic_alt.png" alt="Italian Trulli" style="float:right;width:400px;height:300px;">
+    <img id= "Logo" class="img-scrnshot" src="Resources/Images/Logo_Alt.png" alt="Italian Trulli" style="float:center;width:550px;height:410px;padding: 0;margin: -5rem;padding-bottom: 5rem;margin-top: 2px;margin-bottom: 1rem;">
+    <img id= "BBOC" class="img-scrnshot" src="Resources/Images/BBOC.jpg" alt="Italian Trulli" style="float:left;width:400px;height:300px;">
+
+      <div class="clear"></div>
+  </header>
+  <script>
+  function myFunction(x) {
+      x.style.background = "white";
+  }
+  </script>
+</header>
+</head>
+<body style= "background-color: #ffe6ff;">
+
+  <section id="Border">
+
+  <div>
+    <nav id="nav1">
+
+      <ul align= "Left">
+
+        <li><a href="#Contact">Contact us</a></li>
+        <li><a href="Page2.html">Smoothies</a></li>
+        <li><a href="Page3.html">Juices</a></li>
+        <li><a href="Page4.html">Our Story</a></li>
+
+      </ul>
+    </nav>
+  </div>
+</section>
+  <section id="deals">
+    <h3 id="top1">~ Welcome ~</h3>
+    <h1 id="top2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </h1>
+  </section>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  * {box-sizing: border-box}
+  body {margin:0}
+  .mySlides {display: none}
+  img {vertical-align: middle;}
+
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  .text {
+    color: Black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+  </style>
+  </head>
+      <section id= "deals2">
+        <section id= "foot">
+          <section id= "foot1">
+            <section id= "foot2">
+              <h3 id="top6">Deal of the week</h3>
+              <h3 id="top5">Four deals every month!</h4>
+              </section>
+            </section>
+          </section>
+        </section>
+
+
+    </style>
+  </head><br><br><br>
+
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <img src="Resources/Images/Week 1 Deal.png" style="width:1300px">
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="Resources/Images/Week 2 Deal.png" style="width:1300px">
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="Resources/Images/Week 3 Deal.png" style="width:1300px">
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="Resources/Images/Week 4 Deal.png" style="width:1300px">
+        <div class="text"></div>
+      </div>
+
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+
+    </div>
+
+<script>
+    // GLOBAL VARIABLES
+    var slideIndex = 0;
+    var slideShowTimeout;
+    showSlides();
+
+    function currentSlide(n) {
+      slideIndex = n-1
+      clearTimeout(slideShowTimeout)
+      showSlides();
+    }
+
+    function showSlides() {
+        // local VARIABLES
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+           slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        slideShowTimeout = setTimeout(showSlides, 5000);
+      }
+    </script>
+  </div>
+
+
+  <section id= "month_title" style= "width: 1000px">
+    <div id= "month_deal">
+      <img id="month_deal2" src="Resources/Images/green_15p_off.png" style="float: center; width:1300px; border-top: 3rem;">
+    </div>
+  </section>
+
+  <footer id= "Contact">
+      <section id= "foot">
+        <section id= "foot1">
+          <section id= "foot2">
+      <h2>~ Contact Us ~</h2>
+      <h4>For more information or queries please contact:<br>
+      Matthew Forbes<br>
+      Email - Manager@Greenjuicebox.com</h4>
+            </section>
+          </section>
+        </section>
+      </footer>
+ <script src= JS/Java.js></script>
+</body>
+</html>
